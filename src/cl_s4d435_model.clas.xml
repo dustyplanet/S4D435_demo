@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_S4D435_MODEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Modell Access for Course S4D435</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AUTHORITY_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method simulates an authority check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_AGENCY_BY_USER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the Travel Agency to which a User is assigned</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NEXT_TRAVELID_FOR_AGENCY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method simulates a number range object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AUTHORITY_CHECK</CMPNAME>
+     <SCONAME>IV_ACTVT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Activity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUTHORITY_CHECK</CMPNAME>
+     <SCONAME>IV_AGENCYNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Travel agency number for WB training data model BC_Travel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUTHORITY_CHECK</CMPNAME>
+     <SCONAME>RV_RC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Code (like sy-subrc)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_AGENCY_BY_USER</CMPNAME>
+     <SCONAME>IV_USER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>User name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_AGENCY_BY_USER</CMPNAME>
+     <SCONAME>RV_AGENCYNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Travel agency number for WB training data model BC_Travel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_TRAVELID_FOR_AGENCY</CMPNAME>
+     <SCONAME>IV_AGENCYNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Travel agency number for WB training data model BC_Travel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_TRAVELID_FOR_AGENCY</CMPNAME>
+     <SCONAME>RV_TRAVELID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Flight Travel Number</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

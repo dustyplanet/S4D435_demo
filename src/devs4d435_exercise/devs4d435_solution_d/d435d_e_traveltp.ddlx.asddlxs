@@ -1,0 +1,79 @@
+@Metadata.layer: #CORE
+
+@UI: {
+   headerInfo: {
+     typeName: 'Flight Travel',
+     typeNamePlural: 'Flight Travels',
+     title:          { value: 'TravelDescription'},
+     description: { value: 'TravelDescription' }
+               }
+     }
+
+annotate view D435D_C_TravelTP with
+{
+
+  @UI.facet: [ { id:            'Travel',
+                 purpose:       #STANDARD,
+                 type:          #IDENTIFICATION_REFERENCE,
+                 label:         'Travel',
+                 position:      10 }
+        ]
+
+  @UI.hidden
+  TravelGuid;
+
+  @UI: {
+         identification: [ { position: 10, importance: #HIGH } ]
+       }
+  TravelAgency;
+
+  @UI: {
+         identification: [ { position: 20, importance: #HIGH } ]
+       }
+  TravelNumber;
+
+  @UI: {
+         lineItem:       [ { position: 20, importance: #HIGH } ],
+         identification: [ { position: 30, importance: #HIGH } ]
+       }
+
+  TravelDescription;
+
+  @UI: {
+         lineItem:       [ { position: 30, importance: #HIGH } ],
+         identification: [ { position: 40, importance: #HIGH } ]
+       }
+
+  Customer;
+
+  @UI: {
+         lineItem:       [ { position: 40, importance: #HIGH } ],
+         identification: [ { position: 50, importance: #HIGH } ]
+       }
+
+  StartDate;
+
+  @UI: {
+         lineItem:       [ { position: 50, importance: #HIGH } ],
+         identification: [ { position: 60, importance: #HIGH } ]
+       }
+  EndDate;
+
+  @UI: {
+        lineItem:       [ { position: 10, importance: #HIGH },
+                          { type:       #FOR_ACTION,
+                            dataAction: 'BOPF:SET_TO_CANCELLED',
+                            label:      'Cancel the Travel'
+                          }
+                        ],
+        identification: [ { position: 70, importance: #HIGH } ]
+       }
+  Status;
+
+  @UI.hidden: true
+  ChangedAt;
+
+  @UI.hidden: true
+  ChangedBy;
+
+}

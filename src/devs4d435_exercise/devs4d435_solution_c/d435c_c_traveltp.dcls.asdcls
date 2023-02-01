@@ -1,0 +1,7 @@
+@EndUserText.label: 'Access Control for Flight Travel Consumption View'
+@MappingRole: true
+define role D435C_C_TRAVELTP 
+{ grant select on D435C_C_TravelTP
+          where
+            inheriting conditions from entity D435C_I_TravelTP;          
+}

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>DEVS4D435</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for Course S4D435</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Transparent table &amp;1 does not exist or is not active</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Transparent table &amp;1 is not compatible with template</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>The table is already empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>The table still contains data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>The table does not have a GUID field</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>You successfully issued a message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>You choose travel &amp;1 starting on &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>You successfully cancelled travel &amp;1 starting on &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Travel &amp;1 is already cancelled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>No change authorization for travel agency &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Customer &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>Wrong sequence of start date and end date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>220</MSGNR>
+     <TEXT>End date must not be in the past</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>Start date must not be in the past</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Invalid flight class &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>Flight date must not be in the past</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEVS4D435</ARBGB>
+     <MSGNR>320</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 on &amp;3 does not exist</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

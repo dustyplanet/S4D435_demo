@@ -1,0 +1,6 @@
+@EndUserText.label: 'Access Control for Flight Travel Interface View'
+@MappingRole: true
+define role D435E_I_TRAVEL 
+{  grant select on D435E_I_Travel      
+             where (TravelAgency) = aspect pfcg_auth(s_agency, agencynum, ACTVT = '03');
+}

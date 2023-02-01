@@ -1,0 +1,78 @@
+@Metadata.layer: #CORE
+
+@UI: {
+   headerInfo: {
+     typeName: 'Flight Travel Item',
+     typeNamePlural: 'Flight Travel Items'
+               }
+     }
+
+annotate view D435T_C_TravelItemTP with
+{
+
+  @UI.facet: [ { id:            'Booking',
+                 purpose:       #STANDARD,
+                 type:          #IDENTIFICATION_REFERENCE,
+                 label:         'Travel Item',
+                 position:      10 } ]
+
+  @UI.hidden: true
+  ItemGuid;
+  @UI: {
+          identification: [ { position: 10, importance: #HIGH } ]
+        }
+  TravelAgency;
+  @UI: {
+          identification: [ { position: 20, importance: #HIGH } ]
+        }
+  TravelNumber;
+  @UI: {
+          lineItem:       [ { position: 10, importance: #HIGH } ],
+          identification: [ { position: 30, importance: #HIGH } ]
+        }
+  ItemNumber;
+  @UI.hidden: true
+  TravelGuid;
+
+  @UI: {
+          identification: [ { position: 40, importance: #HIGH } ]
+        }
+
+  AirlineID;
+  @UI: {
+          lineItem:       [ { position: 40, importance: #HIGH } ],
+          identification: [ { position: 50, importance: #HIGH } ]
+        }
+  ConnectionNumber;
+  @UI: {
+          lineItem:       [ { position: 50, importance: #HIGH } ],
+          identification: [ { position: 60, importance: #HIGH } ]
+        }
+  FlightDate;
+  @UI: {
+          lineItem:       [ { position: 60, importance: #HIGH } ],
+          identification: [ { position: 70, importance: #HIGH } ]
+        }
+  BookingNumber;
+  @UI: {
+          lineItem:       [ { position: 70, importance: #HIGH } ],
+          identification: [ { position: 80, importance: #HIGH } ]
+        }
+  FlightClass;
+
+  @UI: {
+          identification: [ { position: 80, importance: #HIGH } ]
+       }
+  PassengerName;
+
+
+  @UI.hidden: true
+  CreatedAt;
+  @UI.hidden: true
+  CreatedBy;
+  @UI.hidden: true
+  ChangedAt;
+  @UI.hidden: true
+  ChangedBy;
+
+}
